@@ -4,13 +4,13 @@ build_and_store_wheels: &BUILD_AND_STORE_WHEELS
   run_cibuildwheel_script:
     - cibuildwheel
   wheels_artifacts:
-    path: "workflows/*"
+    path: "workflows/xw_cbase/*"
   env:
     PYPI_USERNAME: cntracer_dev
     PYPI_PASSWORD: xzkj_8866886
   upload_to_pypi_script:
     - python -m pip install workflows
-    - xw_cbase upload -u cntracer_dev -p xzkj_8866886 workflows/*
+    - xw_cbase upload -u cntracer_dev -p xzkj_8866886 workflows/xw_cbase/*
 
 
 linux_x86_task:
