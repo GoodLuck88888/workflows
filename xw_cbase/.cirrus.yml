@@ -10,7 +10,7 @@ build_and_store_wheels: &BUILD_AND_STORE_WHEELS
     PYPI_PASSWORD: xzkj_8866886
   upload_to_pypi_script:
     - python -m pip install workflows
-    - xw_auth_base upload -u cntracer_dev -p xzkj_8866886 workflows/*
+    - workflows upload -u cntracer_dev -p xzkj_8866886 workflows/*
   
 linux_x86_task:
   name: Build Linux x86 wheels.
