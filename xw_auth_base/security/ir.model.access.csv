@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_xw_auth_base_reg_wizard,xw_auth_base.reg_wizard,model_xw_auth_base_reg_wizard,,1,1,1,1

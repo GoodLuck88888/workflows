@@ -1,0 +1,11 @@
+
+<odoo>
+    <data>
+
+        <menuitem name="Auth Server"
+                  id="xw_auth_server.root_menu"
+                  sequence="0"
+                  web_icon="xw_auth_server,static/description/icon.png"/>
+
+    </data>
+</odoo>
