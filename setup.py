@@ -128,7 +128,7 @@ setup(
     name="xw_cbase",
     version="0.0.1",
     author="Dean Moldovan",
-    author_email="771545803@qq.com",
+    author_email="1161752300@qq.com",
     description="Encrypt system for xw",
     long_description="",
     ext_modules=[CMakeExtension("xw_cbase")],
