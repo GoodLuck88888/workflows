@@ -129,7 +129,7 @@ setup(
     version="0.0.1",
     author="Dean Moldovan",
     author_email="1161752300@qq.com",
-    description="Encrypt system for xw",
+    description="Encrypt system for xw", # 接受邮件
     long_description="",
     ext_modules=[CMakeExtension("workflows")],
     cmdclass={"build_ext": CMakeBuild},
