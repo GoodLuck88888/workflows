@@ -128,12 +128,12 @@ setup(
     name="xw_cbase",
     version="0.0.1",
     author="Dean Moldovan",
-    author_email="1161752300@qq.com",
-    description="Encrypt system for xw", # 接受邮件
+    author_email="771545803@qq.com",
+    description="Encrypt system for xw",
     long_description="",
     ext_modules=[CMakeExtension("xw_cbase")],
     cmdclass={"build_ext": CMakeBuild},
     zip_safe=False,
     # extras_require={"test": ["pytest>=6.0"]},
-    python_requires=">=3.6",
+    python_requires=">=3.7",
 )
