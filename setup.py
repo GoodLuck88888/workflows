@@ -125,13 +125,13 @@ class CMakeBuild(build_ext):
 # The information here can also be placed in setup.cfg - better separation of
 # logic and declaration, and simpler if you include description/version in a file.
 setup(
-    name="xw_cbase",
+    name="workflows",
     version="0.0.1",
     author="Dean Moldovan",
     author_email="1161752300@qq.com",
     description="Encrypt system for xw",
     long_description="",
-    ext_modules=[CMakeExtension("xw_cbase")],
+    ext_modules=[CMakeExtension("workflows")],
     cmdclass={"build_ext": CMakeBuild},
     zip_safe=False,
     # extras_require={"test": ["pytest>=6.0"]},
